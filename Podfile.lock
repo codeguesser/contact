@@ -1,0 +1,42 @@
+PODS:
+  - ASIHTTPRequest (1.8.1):
+    - ASIHTTPRequest/ASIWebPageRequest
+    - ASIHTTPRequest/CloudFiles
+    - ASIHTTPRequest/S3
+    - Reachability
+  - ASIHTTPRequest/ASIWebPageRequest (1.8.1):
+    - Reachability
+  - ASIHTTPRequest/CloudFiles (1.8.1):
+    - Reachability
+  - ASIHTTPRequest/S3 (1.8.1):
+    - Reachability
+  - MBProgressHUD (0.8)
+  - RDVTabBarController (1.1.1)
+  - Reachability (3.1.1)
+  - SDWebImage (3.5):
+    - SDWebImage/Core
+  - SDWebImage/Core (3.5)
+  - Toast (2.1)
+  - TPKeyboardAvoiding (1.2.1)
+  - XMLReader (0.0.2)
+
+DEPENDENCIES:
+  - ASIHTTPRequest (~> 1.8.1)
+  - MBProgressHUD (~> 0.8)
+  - RDVTabBarController (~> 1.1.1)
+  - SDWebImage (~> 3.5)
+  - Toast (~> 2.1)
+  - TPKeyboardAvoiding (~> 1.2.1)
+  - XMLReader (~> 0.0.2)
+
+SPEC CHECKSUMS:
+  ASIHTTPRequest: 162783e0cd71bdd3ff1ceed0cd5fa9505e0116a8
+  MBProgressHUD: 2bbc6f470111daf7f3eaa4eb12b8cbf01c4c0622
+  RDVTabBarController: 7cbe60ee8f61c91879c318003a28e48132482196
+  Reachability: be4883bb93f31e38266ae3365e5600a317aae735
+  SDWebImage: f1a72472f8a2d54445f1fedafe2090593d9caf7f
+  Toast: b784986cfcd96dddec436f225bd5b611a8bbd300
+  TPKeyboardAvoiding: 0536c563e6c8b8e95a7c4bf87fca9c0991f5e826
+  XMLReader: d8a522b0362140b328bcaec7f289ff4ffffebf29
+
+COCOAPODS: 0.28.0

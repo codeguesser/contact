@@ -1,0 +1,47 @@
+/* 
+  template.strings
+  WTD
+
+  Created by Wangshuguan-mac on 13-7-28.
+  Copyright (c) 2013年 ling. All rights reserved.
+*/
+#pragma mark -
+
+-(UITableViewCell *)cellWithData:(id)w1{
+    //    Friend *w = w1;
+    //    FriendCell *cell = [[[NSBundle mainBundle]loadNibNamed:@"FriendCell" owner:self options:nil] objectAtIndex:0];
+    //    cell.labelUname.text = strFromNum(w.name);
+    //    if(w.sex.intValue == 0){
+    //        cell.imageMale.hidden = YES;
+    //        cell.imageFemale.hidden = NO;
+    //    }else{
+    //        cell.imageMale.hidden = NO;
+    //        cell.imageFemale.hidden = YES;
+    //    }
+    //    return cell;
+}
+-(NSArray *)dataFromRequest{
+    //    return [Request GetFollowFriendResult:@(!isReloadData?((int)(arrOfData.count)/10)+1:1)];
+}
+
+
+#pragma mark - methods for tableview
+-(UITableViewCell *)tableView:(UITableView *)_tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
+    
+    //    if(arrOfCell.count>indexPath.row){
+    //        FriendCell *cell = [arrOfCell objectAtIndex:indexPath.row];
+    //        Friend *w = [arrOfData objectAtIndex:indexPath.row];
+    //        [cell.imagePicture getImageByUserId:w.fdUID];
+    //        return cell;
+    //    }else{
+    //        NSLog(@"error");
+    //        return nil;
+    //    }
+    
+}
+-(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
+    [super tableView:tableView didSelectRowAtIndexPath:indexPath];
+    //    FriendDetailViewController *ftvc = STORYBOARD_CONTROLLER(@"FriendDetailViewController");
+    //    ftvc.ffriend = (Friend *)[arrOfData objectAtIndex:indexPath.row];
+    //    [self.navigationController pushViewController:ftvc animated:YES];
+}
